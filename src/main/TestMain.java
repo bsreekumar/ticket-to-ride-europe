@@ -6,6 +6,7 @@ public class TestMain {
 		testPlayerColor();
 		testTrainCarColor();
 		testCityName();
+		testPlayer();
 	}
 	
 	private static void testPlayerColor() {
@@ -17,5 +18,12 @@ public class TestMain {
 	}
 	private static void testCityName() {
 		for (CityName n : CityName.values()) System.out.println(n);
+	}
+	
+	private static void testPlayer() {
+		Player player = new Player(PlayerColor.BLACK);
+		System.out.println("" + player.getColor() + 
+				"\t" + player.getNumOfStations() + 
+				"\t" + player.getNumOfTrainCars());
 	}
 }
