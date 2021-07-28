@@ -1,0 +1,156 @@
+DGS004
+null 0 0
+#
+# Adding Cities
+#
+an EDINBURGH hasStation=false stationColor=gray
+an LONDON hasStation=false stationColor=gray
+an DIEPPE hasStation=false stationColor=gray
+an BREST hasStation=false stationColor=gray
+an PAMPLONA hasStation=false stationColor=gray
+an MADRID hasStation=false stationColor=gray
+an LISBOA hasStation=false stationColor=gray
+an CADIZ hasStation=false stationColor=gray
+an BARCELONA hasStation=false stationColor=gray
+an PARIS hasStation=false stationColor=gray
+an BRUXELLES hasStation=false stationColor=gray
+an AMSTERDAM hasStation=false stationColor=gray
+an ESSEN hasStation=false stationColor=gray
+an FRANKFURT hasStation=false stationColor=gray
+an MUNCHEN hasStation=false stationColor=gray
+an ZURICH hasStation=false stationColor=gray
+an MARSEILLE hasStation=false stationColor=gray
+an ROMA hasStation=false stationColor=gray
+an VENEZIA hasStation=false stationColor=gray
+an WIEN hasStation=false stationColor=gray
+an BERLIN hasStation=false stationColor=gray
+an KOBENHAVN hasStation=false stationColor=gray
+an STOCKOLM hasStation=false stationColor=gray
+an DANZIC hasStation=false stationColor=gray
+an WARZAWA hasStation=false stationColor=gray
+an BUDAPEST hasStation=false stationColor=gray
+an ZAGRAB hasStation=false stationColor=gray
+an SARAGEVO hasStation=false stationColor=gray
+an PALERMO hasStation=false stationColor=gray
+an BRINDISI hasStation=false stationColor=gray
+an RICA hasStation=false stationColor=gray
+an WILNO hasStation=false stationColor=gray
+an SOFIA hasStation=false stationColor=gray
+an ATHINA hasStation=false stationColor=gray
+an SMYRNA hasStation=false stationColor=gray
+an CONSTANTINOPLE hasStation=false stationColor=gray
+an ANCORA hasStation=false stationColor=gray
+an BUCURESTI hasStation=false stationColor=gray
+an KYIV hasStation=false stationColor=gray
+an SMOLENSK hasStation=false stationColor=gray
+an PETROGRAD hasStation=false stationColor=gray
+an MOSKVA hasStation=false stationColor=gray
+an KHARKOV hasStation=false stationColor=gray
+an ROSTOV hasStation=false stationColor=gray
+an SOCHI hasStation=false stationColor=gray
+an SEVASTAPOL hasStation=false stationColor=gray
+an ERZURUM hasStation=false stationColor=gray
+#
+# Adding Routes (TODO - ADD THE CASE WHERE YOU MAY HAVE TO USE MORE CARS; EX: PARIS TO ZURICH)
+#
+ae E1 EDINBURGH LONDON weight=4 color=ORANGE numberOfLocomotives=0
+ae E2 EDINBURGH LONDON weight=4 color=BLACK numberOfLocomotives=0
+ae E3 LONDON DIEPPE weight=2 color=GRAY numberOfLocomotives=1
+ae E4 LONDON DIEPPE weight=2 color=GRAY numberOfLocomotives=1
+ae E5 LONDON AMSTERDAM weight=2 color=GRAY numberOfLocomotives=2
+ae E6 DIEPPE BREST weight=2 color=ORANGE numberOfLocomotives=0
+ae E7 DIEPPE BRUXELLES weight=2 color=GREEN numberOfLocomotives=0
+ae E8 DIEPPE PARIS weight=1 color=PINK numberOfLocomotives=0
+ae E9 BREST PARIS weight=3 color=BLACK numberOfLocomotives=0
+ae E10 BREST PAMPLONA weight=4 color=PINK numberOfLocomotives=0
+ae E11 AMSTERDAM BRUXELLES weight=1 color=BLACK numberOfLocomotives=0
+ae E12 AMSTERDAM FRANKFURT weight=2 color=WHITE numberOfLocomotives=0
+ae E13 AMSTERDAM ESSEN weight=3 color=YELLOW numberOfLocomotives=0
+ae E14 BRUXELLES PARIS weight=2 color=YELLOW numberOfLocomotives=0
+ae E15 BRUXELLES PARIS weight=2 color=RED numberOfLocomotives=0
+ae E16 BRUXELLES FRANKFURT weight=2 color=BLUE numberOfLocomotives=0
+ae E17 PARIS PAMPLONA weight=4 color=BLUE numberOfLocomotives=0
+ae E18 PARIS PAMPLONA weight=4 color=GREEN numberOfLocomotives=0
+ae E19 PARIS MARSEILLE weight=4 color=GRAY numberOfLocomotives=0
+ae E20 PARIS ZURICH weight=3 color=GRAY numberOfLocomotives=0
+ae E21 PARIS FRANKFURT weight=3 color=WHITE numberOfLocomotives=0
+ae E22 PARIS FRANKFURT weight=3 color=ORANGE numberOfLocomotives=0
+ae E23 PAMPLONA MADRID weight=3 color=BLACK numberOfLocomotives=0
+ae E24 PAMPLONA MADRID weight=3 color=WHITE numberOfLocomotives=0
+ae E25 PAMPLONA BARCELONA weight=2 color=GRAY numberOfLocomotives=0
+ae E26 PAMPLONA MARSEILLE weight=4 color=RED numberOfLocomotives=0
+ae E27 FRANKFURT BERLIN weight=3 color=RED numberOfLocomotives=0
+ae E28 FRANKFURT BERLIN weight=3 color=BLACK numberOfLocomotives=0
+ae E29 FRANKFURT ESSEN weight=2 color=GREEN numberOfLocomotives=0
+ae E30 FRANKFURT MUNCHEN weight=2 color=PINK numberOfLocomotives=0
+ae E31 ESSEN KOBENHAVN weight=3 color=GRAY numberOfLocomotives=1
+ae E32 ESSEN KOBENHAVN weight=3 color=GRAY numberOfLocomotives=1
+ae E33 ESSEN BERLIN weight=2 color=BLUE numberOfLocomotives=0
+ae E34 MARSEILLE ZURICH weight=2 color=PINK numberOfLocomotives=0
+ae E35 MARSEILLE BARCELONA weight=4 color=GRAY numberOfLocomotives=0
+ae E36 MARSEILLE ROMA weight=4 color=GRAY numberOfLocomotives=0
+ae E37 ZURICH VENEZIA weight=2 color=GREEN numberOfLocomotives=0
+ae E38 ZURICH MUNCHEN weight=2 color=YELLOW numberOfLocomotives=0
+ae E39 MADRID LISBOA weight=3 color=PINK numberOfLocomotives=0
+ae E40 MADRID BARCELONA weight=3 color=ORANGE numberOfLocomotives=0
+ae E41 MADRID CADIZ weight=2 color=YELLOW numberOfLocomotives=0
+ae E42 BERLIN WIEN weight=3 color=GREEN numberOfLocomotives=0
+ae E43 BERLIN WARZAWA weight=4 color=PINK numberOfLocomotives=0
+ae E44 BERLIN WARZAWA weight=4 color=YELLOW numberOfLocomotives=0
+ae E45 BERLIN DANZIC weight=4 color=GRAY numberOfLocomotives=0
+ae E46 MUNCHEN VENEZIA weight=2 color=BLUE numberOfLocomotives=0
+ae E47 MUNCHEN WIEN weight=3 color=ORANGE numberOfLocomotives=0
+ae E48 KOBENHAVN STOCKOLM weight=3 color=YELLOW numberOfLocomotives=0
+ae E49 KOBENHAVN STOCKOLM weight=3 color=WHITE numberOfLocomotives=0
+ae E50 ROMA VENEZIA weight=2 color=BLACK numberOfLocomotives=0
+ae E51 ROMA BRINDISI weight=2 color=WHITE numberOfLocomotives=0
+ae E52 ROMA PALERMO weight=3 color=GRAY numberOfLocomotives=1
+ae E53 VENEZIA ZAGRAB weight=2 color=GRAY numberOfLocomotives=0
+ae E54 LISBOA CADIZ weight=2 color=BLUE numberOfLocomotives=0
+ae E55 WIEN ZAGRAB weight=2 color=GRAY numberOfLocomotives=0
+ae E56 WIEN BUDAPEST weight=1 color=RED numberOfLocomotives=0
+ae E57 WIEN BUDAPEST weight=1 color=WHITE numberOfLocomotives=0
+ae E58 WIEN WARZAWA weight=4 color=BLUE numberOfLocomotives=0
+ae E59 WARZAWA DANZIC weight=2 color=GRAY numberOfLocomotives=0
+ae E60 WARZAWA WILNO weight=3 color=RED numberOfLocomotives=0
+ae E61 WARZAWA KYIV weight=4 color=GRAY numberOfLocomotives=0
+ae E62 DANZIC RICA weight=3 color=BLACK numberOfLocomotives=0
+ae E63 STOCKOLM PETROGRAD weight=8 color=GRAY numberOfLocomotives=0
+ae E64 BRINDISI PALERMO weight=3 color=GRAY numberOfLocomotives=1
+ae E65 BRINDISI ATHINA weight=4 color=GRAY numberOfLocomotives=1
+ae E66 PALERMO SMYRNA weight=6 color=GRAY numberOfLocomotives=2
+ae E67 ZAGRAB BUDAPEST weight=2 color=ORANGE numberOfLocomotives=0
+ae E68 ZAGRAB SARAGEVO weight=3 color=RED numberOfLocomotives=0
+ae E69 BUDAPEST SARAGEVO weight=3 color=PINK numberOfLocomotives=0
+ae E70 BUDAPEST BUCURESTI weight=4 color=GRAY numberOfLocomotives=0
+ae E71 BUDAPEST KYIV weight=6 color=GRAY numberOfLocomotives=0
+ae E72 WILNO RICA weight=4 color=GREEN numberOfLocomotives=0
+ae E73 WILNO KYIV weight=2 color=GRAY numberOfLocomotives=0
+ae E74 WILNO PETROGRAD weight=4 color=BLUE numberOfLocomotives=0
+ae E75 WILNO SMOLENSK weight=3 color=YELLOW numberOfLocomotives=0
+ae E76 KYIV SMOLENSK weight=3 color=RED numberOfLocomotives=0
+ae E77 KYIV KHARKOV weight=4 color=GRAY numberOfLocomotives=0
+ae E78 KYIV BUCURESTI weight=4 color=GRAY numberOfLocomotives=0
+ae E79 RICA PETROGRAD weight=4 color=GRAY numberOfLocomotives=0
+ae E80 PETROGRAD MOSKVA weight=4 color=WHITE numberOfLocomotives=0
+ae E81 SMOLENSK MOSKVA weight=2 color=ORANGE numberOfLocomotives=0
+ae E82 KHARKOV MOSKVA weight=4 color=GRAY numberOfLocomotives=0
+ae E83 KHARKOV ROSTOV weight=2 color=GREEN numberOfLocomotives=0
+ae E84 BUCURESTI SEVASTAPOL weight=4 color=WHITE numberOfLocomotives=0
+ae E85 BUCURESTI CONSTANTINOPLE weight=3 color=YELLOW numberOfLocomotives=0
+ae E86 BUCURESTI SOFIA weight=2 color=GRAY numberOfLocomotives=0
+ae E87 ROSTOV SEVASTAPOL weight=4 color=GRAY numberOfLocomotives=0
+ae E88 ROSTOV SOCHI weight=2 color=GRAY numberOfLocomotives=0
+ae E89 SEVASTAPOL CONSTANTINOPLE weight=4 color=GRAY numberOfLocomotives=2
+ae E90 SEVASTAPOL ERZURUM weight=4 color=GRAY numberOfLocomotives=2
+ae E91 SEVASTAPOL SOCHI weight=2 color=GRAY numberOfLocomotives=1
+ae E92 CONSTANTINOPLE SOFIA weight=3 color=BLUE numberOfLocomotives=0
+ae E93 CONSTANTINOPLE ANCORA weight=2 color=GRAY numberOfLocomotives=0
+ae E94 CONSTANTINOPLE SMYRNA weight=2 color=GRAY numberOfLocomotives=0
+ae E95 SOFIA SARAGEVO weight=2 color=GRAY numberOfLocomotives=0
+ae E96 SOFIA ATHINA weight=3 color=PINK numberOfLocomotives=0
+ae E97 SOCHI ERZURUM weight=3 color=RED numberOfLocomotives=0
+ae E98 ERZURUM ANCORA weight=3 color=BLACK numberOfLocomotives=0
+ae E99 ANCORA SMYRNA weight=3 color=ORANGE numberOfLocomotives=0
+ae E100 SARAGEVO ATHINA weight=4 color=GREEN numberOfLocomotives=0
+ae E101 SMYRNA ATHINA weight=2 color=GRAY numberOfLocomotives=1

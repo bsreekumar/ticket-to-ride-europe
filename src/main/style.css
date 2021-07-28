@@ -1,0 +1,17 @@
+
+node { 
+	z-index : 2;
+	size-mode: fit; 
+	shape: box; 
+	fill-color: white; 
+	stroke-mode: plain; 
+	padding: 3px, 2px; 
+	}
+	
+edge {
+	arrow-shape: none;
+	z-index: 1;
+	text-alignment: along;
+	size-mode: fit;
+	shape: cubic-curve;
+}
